@@ -1,0 +1,7 @@
+.hero {
+  width: 100%;
+  background-image: url("./Pictures/pic2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
