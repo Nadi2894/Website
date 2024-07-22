@@ -1,7 +1,10 @@
 .hero {
   width: 100%;
-  background-image: url("./Pictures/pic2.jpeg");
+  min-height: 100vh;
+  background: url("./Pictures/picture1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  opacity: 0.5;
+  background-position: center;
+  color: black;
 }
