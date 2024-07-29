@@ -4,7 +4,7 @@ import logo from "./Pictures/logo.jpg";
 
 export const Navbar = () => {
   return (
-    <nav className="container">
+    <nav className="container-nav">
       <img src={logo} alt="logo" width={80} className="logo" />
 
       <ul>
@@ -14,7 +14,7 @@ export const Navbar = () => {
         <li> Gallery</li>
         <li>
           {" "}
-          <button className="btn">Contact us</button>
+          <button className="Btn">Contact us</button>
         </li>
       </ul>
     </nav>
