@@ -1,12 +1,16 @@
 .Offer {
-  background-color: #2d754a;
   align-items: center;
   width: 100%;
+  padding-bottom: 30px;
+  background: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
 }
 .Offer h1 {
   text-align: center;
   padding: 20px 0 20px 0;
+  font-size: 30px;
+  color: #063c19;
 }
+
 .Row {
   font-size: 18px;
 }
@@ -14,4 +18,5 @@
   border: 1px solid black;
   border-radius: 5px;
   margin: 30px 10px;
+  padding: 30px 30px;
 }

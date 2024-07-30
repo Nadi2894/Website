@@ -3,6 +3,7 @@ import { Navbar } from "./Navbar";
 import Hero from "./Hero";
 import About from "./About";
 import Offer from "./Offer";
+import Extermination from "./Extermination";
 
 const App = () => {
   return (
@@ -11,6 +12,8 @@ const App = () => {
       <Hero />
       <About />
       <Offer />
+
+      <Extermination />
     </div>
   );
 };
