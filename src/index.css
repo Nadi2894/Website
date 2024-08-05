@@ -13,12 +13,8 @@ a {
   line-height: 1;
   cursor: pointer;
 }
-.container-nav {
+
+.container {
   padding-left: 10%;
   padding-right: 10%;
-}
-h1 {
-  text-align: center;
-  padding: 20px 0 20px 0;
-  font-size: 30px;
 }

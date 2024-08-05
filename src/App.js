@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Offer from "./Offer";
 import Extermination from "./Extermination";
+import Gallery from "./Gallery";
 
 const App = () => {
   return (
@@ -11,9 +12,12 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
-      <Offer />
 
-      <Extermination />
+      <Offer />
+      <div className="container">
+        <Extermination />
+        <Gallery />
+      </div>
     </div>
   );
 };
