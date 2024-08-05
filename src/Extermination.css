@@ -1,40 +1,36 @@
-.exterminate h1 {
-  text-align: center;
-  font-size: 30px;
-  color: #063c19;
-}
-
 .exterminate {
   position: relative;
-  margin: 30px auto;
+  margin: 80px auto;
+  padding: auto 80px;
 }
-
 .next-btn,
 .back-btn {
   position: absolute;
-  margin-top: 10%;
-  right: 10%;
+  top: 50%;
+  right: 0;
 
   padding: 15px;
   border-radius: 50%;
   cursor: pointer;
-  width: 60px;
+  width: 50px;
+  background: #2f7648;
 }
 .back-btn {
-  right: auto;
-  left: 10%;
+  left: 0;
 }
 
-.slider {
-  overflow: hidden;
-}
 .slider ul {
   display: flex;
-  width: 200%;
+  width: 150%;
   overflow-x: hidden;
   transition: 0.5s;
+  height: 100%;
 }
-
+.slider {
+  overflow: hidden;
+  width: 175%;
+  height: 100%;
+}
 .slider ul li {
   list-style: none;
   width: 50%;
@@ -48,8 +44,14 @@
   line-height: 1.4;
 }
 .slide img {
-  width: 200px;
+  width: 150px;
   border-radius: 10%;
   margin-right: 10px;
   border: 1px solid #2c5e09;
+}
+.pests {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 15px;
 }
