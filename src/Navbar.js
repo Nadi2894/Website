@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import logo from "./Pictures/logo.jpg";
+import { Link } from "react-scroll";
 
 export const Navbar = () => {
   const [sticky, setSticky] = useState(false);
@@ -14,13 +15,41 @@ export const Navbar = () => {
       <img src={logo} alt="logo" width={80} className="logo" />
 
       <ul>
-        <li> Home</li>
-        <li> About us</li>
-        <li> Services</li>
-        <li> Gallery</li>
         <li>
           {" "}
-          <button className="Btn">Contact us</button>
+          <Link to="hero" smooth={true} offset={0} duration={200}>
+            Home
+          </Link>
+        </li>
+        <li>
+          {" "}
+          <Link to="About" smooth={true} offset={-260} duration={200}>
+            About us
+          </Link>
+        </li>
+        <li>
+          {" "}
+          <Link to="Offer" smooth={true} offset={-150} duration={200}>
+            Services
+          </Link>
+        </li>
+        <li>
+          {" "}
+          <Link to="Gallery" smooth={true} offset={-260} duration={200}>
+            Gallery
+          </Link>
+        </li>
+        <li>
+          {" "}
+          <Link
+            to="contact"
+            smooth={true}
+            offset={-150}
+            duration={200}
+            className="Btn"
+          >
+            Contact us
+          </Link>
         </li>
       </ul>
     </nav>
