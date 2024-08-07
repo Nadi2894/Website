@@ -55,3 +55,9 @@
   margin-bottom: 20px;
   font-size: 15px;
 }
+
+@media (max-width: 800px) {
+  .exterminate {
+    padding: 0 40px;
+  }
+}

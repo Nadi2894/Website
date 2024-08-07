@@ -9,7 +9,7 @@ const Hero = () => {
         <p>
           Share home with family, <em>not pests </em>.
         </p>
-        <button className="btn1"> Explore more</button>
+        <button className="btn1">Explore more</button>
       </div>
     </div>
   );
