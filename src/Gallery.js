@@ -7,7 +7,6 @@ import img4 from "./Pictures/img4.jpeg";
 const Gallery = () => {
   return (
     <div className="Gallery">
-      <h1>GALLERY</h1>
       <div className="gallery-photos">
         <img src={img1} alt="" />
         <img src={img2} alt="" />

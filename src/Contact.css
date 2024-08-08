@@ -1,9 +1,9 @@
 .contact {
-  margin: 80px auto;
+  margin: 70px;
   max-width: 100%;
   display: flex;
   align-content: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .contact-col {
   flex-basis: 48%;
@@ -28,7 +28,7 @@
 .contact-col ul li {
   display: flex;
   align-items: center;
-  margin: 20px 0;
+  margin: 20px 0 20px -30px;
 }
 .contact-col ul li img {
   width: 25px;

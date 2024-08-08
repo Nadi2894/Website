@@ -7,17 +7,25 @@ import Extermination from "./Extermination";
 import Gallery from "./Gallery";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Title from "./Title";
+import logo from "./Pictures/logo.jpg";
 const App = () => {
   return (
     <div>
       <Navbar />
       <Hero />
+      <img src={logo} alt="" className="logo2" />
+      <Title title="WELCOME" />
       <About />
-
+      <Title title="WHY CHOOSE US" />
       <Offer />
+      <Title title="WHAT DO WE EXTERMINATE" />
+      <Extermination />
+      <Title title="GALLERY" />
+
+      <Gallery />
       <div className="container">
-        <Extermination />
-        <Gallery />
+        <Title title="GET IN TOUCH" />
         <Contact />
         <Footer />
       </div>

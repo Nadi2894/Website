@@ -1,23 +1,12 @@
 .aboutPage {
-  margin: 50px;
-  max-width: 90%;
+  margin: 40px;
+  max-width: 100%;
   align-items: center;
 }
-.About img {
-  width: 10%;
-  display: block;
-  margin: auto;
-}
-.About h1 {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 30px;
-  color: #063c19;
-}
+
 .About p {
   text-align: center;
-  margin: 20px 120px 0 120px;
-
+  margin-top: -20px;
   color: #063c19;
   font-size: 20px;
 }

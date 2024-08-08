@@ -1,7 +1,6 @@
 .exterminate {
   position: relative;
-  margin: 80px auto;
-  padding: auto 80px;
+  margin: 30px 0 -45px;
 }
 .next-btn,
 .back-btn {
@@ -28,7 +27,7 @@
 }
 .slider {
   overflow: hidden;
-  width: 175%;
+  width: 170%;
   height: 100%;
 }
 .slider ul li {

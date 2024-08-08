@@ -1,18 +1,15 @@
 .Offer {
   align-items: center;
   width: 100%;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
+
   background-color: rgb(155, 219, 155);
-}
-.Offer h1 {
-  text-align: center;
-  padding: 20px 0 20px 0;
-  font-size: 30px;
-  color: #063c19;
 }
 
 .Row {
   font-size: 18px;
+  width: 90%;
+  margin-left: 70px;
 }
 .Col {
   border: 1px solid black;

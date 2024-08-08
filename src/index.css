@@ -14,11 +14,24 @@ a {
   cursor: pointer;
 }
 
-.container {
-  padding-left: 10%;
-  padding-right: 10%;
+.Btn {
+  background-color: white;
+  color: #2d754a;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
 }
 
+.logo2 {
+  width: 12%;
+  display: block;
+  margin: auto;
+  padding: 40px 0 10px;
+}
 @media (max-width: 1200px) {
   .container {
     padding-left: 5%;
